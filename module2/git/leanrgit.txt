@@ -1,0 +1,2 @@
+hướng dẫn sử dung git basic 
++ bước 1 : tạo 1 tài khoảng ở github
