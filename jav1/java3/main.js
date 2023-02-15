@@ -1,5 +1,5 @@
-inputWidth = prompt("width = 10");
-inputHeight = prompt( "height 20 ");
+inputWidth = prompt("Enter the width");
+inputHeight = prompt("Enter the height");
 let width = parseInt(inputWidth);
 let height = parseInt(inputHeight);
 let area = width * height;
