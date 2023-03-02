@@ -13,7 +13,7 @@ header{
     width: 100vw;
     height: 100vh;
     background: url("a4.avif");
-    background-position: center;
+    background-position: centaer;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -21,9 +21,18 @@ header{
     text-align: center;
     justify-content: center;
     align-items: center;
+    animation: inout 5s infinite;
+   
+    }
 
-    
-}
+    @keyframes inout {
+        0%,100%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.1);
+        }
+    }
 header::before{
     position: absolute;
     width: 100%;
