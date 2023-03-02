@@ -12,7 +12,7 @@ a{ text-decoration: none;}
 header{
     width: 100vw;
     height: 100vh;
-    background: url("bk8.img");
+    background: url("a4.avif");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,7 +89,7 @@ header .menu-icon input.checked ~ .menu-line::before  {
     position:fixed;
     width: 300px;
     height: 100vh;
-    background: rgb(92, 44, 44);
+    background: rgb(9, 4, 31);
     top: 0;
     right: 0;
     display: flex;
@@ -105,7 +105,7 @@ header .menu-icon input.checked ~ .menu-line::before  {
    
 }
 .menu-item li a{
-    color: rgb(235, 242, 238);
+    color: rgb(249, 245, 248);
 }
 .header-text {
     position: absolute;
@@ -131,8 +131,28 @@ header .menu-icon input.checked ~ .menu-line::before  {
     font-size: 30px;
 }
 .header-text h4{
-    padding: 15px 30px;
-    background: rgb(105, 96, 96);
-    border-radius: 30px;
-    font-size: 30px;
+    padding: 6px 12px;
+    background: rgb(248, 246, 246);
+    border-radius: 12px;
+    font-size: 12px;
+}
+.box-right {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right img {
+    margin: 0px 10px;
+    animation: animation 3s infinite linear;
+}
+
+ .box-right img:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+ .box-right img:nth-child(2) {
+
+    animation-delay: 1s;
 }
